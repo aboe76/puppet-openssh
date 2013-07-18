@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/aboe76/puppet-openssh.png?branch=master)](http://travis-ci.org/aboe76/puppet-openssh)
+
 # openSSH Puppet Module Archlinux
 
 Manage SSH client and server via Puppet on archlinux
