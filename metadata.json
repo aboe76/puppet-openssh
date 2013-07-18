@@ -2,7 +2,7 @@
   "name": "aboe-openssh",
   "version": "0.0.1",
   "summary": "UNKNOWN",
-  "author": "aboe76",
+  "author": "aboe",
   "description": "Manage SSH client and server via puppet on archlinux",
   "dependencies": [
     {
