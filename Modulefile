@@ -1,4 +1,4 @@
-name    'aboe76-ssh'
+name    'aboe76-openssh'
 version '0.0.1'
 source 'git://github.com/aboe76/puppet-openssh.git'
 author 'aboe76'
