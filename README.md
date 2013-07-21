@@ -38,7 +38,8 @@ with systemd.
  
 ###Beginning with openssh
 
-include '::openssh' is all you need to get it running. If you
+include '::openssh' is all you need to get it running.
+Or put this in your manifest:
 
 
 ```puppet
