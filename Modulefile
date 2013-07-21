@@ -1,5 +1,5 @@
 name    'aboe-openssh'
-version '0.0.3'
+version '0.0.4'
 source 'git://github.com/aboe76/puppet-openssh.git'
 author 'aboe'
 license 'Apache License, Version 2.0'
