@@ -9,4 +9,15 @@ class openssh::config {
     require => Class['openssh::install'],
     notify  => Class['openssh::service'],
   }
+
+  file { $openssh::params::ssh_config:
+    ensure  => present,
+    owner   => 'root',
+    group   => 'root',
+    mode    => '0600',
+    replace => true,
+    source  => "puppet:///modules/${module_name}/ssh_config",
+    require => Class['openssh::install'],
+    notify  => Class['openssh::service'],
+  }
 }
