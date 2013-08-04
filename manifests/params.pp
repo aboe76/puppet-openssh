@@ -1,6 +1,6 @@
 class openssh::params {
-  case $::operatingsystem {
-    Archlinux: {
+  case $::osfamily {
+    'archlinux': {
       $package_name = 'openssh'
       $sshd_config = '/etc/ssh/sshd_config'
       $ssh_config = '/etc/ssh/ssh_config'
