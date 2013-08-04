@@ -9,7 +9,7 @@ class openssh::params {
     }
     default: {
       case $::operatingsystem {
-        default: {
+        default : {
           fail("Unsupported platform: ${::osfamily}/${::operatingsystem}")
         }
       }
