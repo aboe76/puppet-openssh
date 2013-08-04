@@ -2,7 +2,6 @@ Language: ruby
 rvm: 2.0.0
 
 script: 
-  - "rake spec"
   - "rake lint"
    
 branches:
