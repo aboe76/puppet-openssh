@@ -14,6 +14,9 @@ describe 'openssh' do
     context "on #{distro}" do
       let(:facts) {{
           :osfamily => distro,
+          :ipaddresses => '192.10.50.1',
+          :fqdn => 'test.example.com',
+          :hostname => 'test',
         }}
 
       it { should contain_class('openssh::params') }
